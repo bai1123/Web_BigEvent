@@ -58,7 +58,7 @@ $(function () {
                 }
                 layer.msg('登录成功');
                 // 将登陆成功后的token值保存到localStorage中
-                localStorage.setItem = ("token", res.token);
+                localStorage.setItem("token", res.token);
                 // 跳转到后台主页
                 location.href = '/index.html'
             }
